@@ -4,7 +4,8 @@ jobs:
   generate_readme:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Add a wip gif
-        uses: rocktimsaikia/wip-action-gif
+        uses: RocktimSaikia/wip-action-gif@master
         with:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

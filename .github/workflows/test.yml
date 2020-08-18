@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  generate_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add a wip gif
+        uses: rocktimsaikia/wip-action-gif
+        with:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

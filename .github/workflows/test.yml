@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: work-in-progress gif
-        uses: rocktimsaikia/action-wippy@v2.0.1
+        uses: rocktimsaikia/action-wippy@v2
         with:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

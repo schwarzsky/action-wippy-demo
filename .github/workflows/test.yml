@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Add a wip gif
-        uses: rocktimsaikia/wip-action-gif@master
+        uses: rocktimsaikia/action-wippy@v1
         with:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
